@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Cabin', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    height:480px;
+    background: url(../imagens/projeto4.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > section >h1{
+    color: white;
+    padding: 25px;
+    padding-top: 70px;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 1px black;
+}
+
+header > section >p{
+    color: white;
+    padding-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 2px 2px black;
+}
+
+header >section >nav{
+    text-align: center;
+    padding-top: 30px;
+}
+
+header >section >nav >a{
+    color: white;
+    background-color: rgb(77, 70, 70);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid darkgrey;
+}
+
+header >section >nav >a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+main > section.normal{
+    background-color: #EAEAEA;
+    height: 500px;
+}
+
+main > section >ul >li > img{
+    width: 100%;
+}
+
+main section.normal>h1{
+    text-align: center;
+    padding: 30px;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+main section.normal>p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main >section.menu{
+    background-color: #333333;
+    height: 1600px;
+
+    position: relative;
+}
+
+ul > li.teste1{
+    background-color: white;
+    width: 90%;
+    height: 485px;
+    list-style: none;
+
+    position: absolute;
+    transform: translate(5%, 10%);
+}
+
+ul > li.teste2{
+    background-color: white;
+    width: 90%;
+    height: 485px;
+    list-style: none; 
+
+    position: absolute;
+    transform: translate(5%, 116%);
+}
+
+ul > li.teste3{
+    background-color: white;
+    width: 90%;
+    height: 485px;
+    list-style: none; 
+
+    position: absolute;
+    transform: translate(5%, 222%);
+}
+
+main >section > ul > li >h1{
+    padding: 30px;
+    text-align: center;
+}
+
+main >section > ul > li >p{
+    text-align: center;
+}
+
+main >section >article{
+    background-color: white;
+    height: 360px;
+    padding: 10px;
+}
+
+main >section >article >h1{
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+main > section >aside.blue{
+    background-color: #2690D4;
+    height: 360px;
+    padding: 10px;
+}
+
+main >section >article, aside.blue >h1 ,p{
+    text-align: center;
+    padding: 20px;
+}
+
+main >section >article, aside.blue >h1{
+    font-size: 1.8em;
+}
+main >section >article, aside.blue >p{
+    font-size: 1.2em;
+}
+
+main >section > aside.blue >h1{
+    font-size: 1.8em;
+    color: white;
+    padding: 45px;
+}
+
+main >section >aside.blue >p{
+    font-size: 1.2em;
+    color: white;
+}
+
+main >section > aside >p.email{
+    padding: 10px;
+}
+
+main > section >aside{
+    background-color: #333333;
+    height: 360px;
+}
+
+main >section > aside >h1{
+    padding: 40px;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+}
+main >section > aside >p{
+    padding: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+footer >h1{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+footer >h1 >a{
+    color: #2fbdeb;
+    text-decoration: none;
+}
